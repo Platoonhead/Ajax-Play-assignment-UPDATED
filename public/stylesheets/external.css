@@ -1,0 +1,49 @@
+body{
+
+    background-color: #eee;
+
+}
+.main{
+      padding:0px 80px;
+}
+.z{
+ text-align: center;
+ border-left:20px solid #eee;
+border-right:20px solid #eee;
+ border-radius: 30px;
+ margin-top:10px;
+padding:20px 0px;
+color:#fff;
+font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+#a{
+    background-color: #EC7063;
+}
+#b{
+    background-color:#C39BD3;
+}
+#c{
+    background-color: #A9CCE3;
+}
+#d{
+    background-color:#7DCEA0;
+}
+#e{
+    background-color:#F5B041;
+}
+#f{
+    background-color: #95A5A6;
+}
+
+.navbar{
+    box-shadow: 0  8px 20px -8px #5F9EA0;
+}
+.mainn{
+    text-align: center;
+    color:#fff;
+}
+
+
+
