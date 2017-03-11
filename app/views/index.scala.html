@@ -1,7 +1,6 @@
-@(message: String)(implicit req: RequestHeader)
+@()(implicit flash: Flash , req: RequestHeader)
+@main("Play App") {
 
-@main("Welcome to Play") {
-
-@message
+@landing(flash,req)
 
 }

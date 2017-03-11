@@ -3,8 +3,6 @@ import java.time.Clock
 
 import services._
 
-
-
 /**
   * This class is a Guice module that tells Guice how to bind several
   * different types. This Guice module is created when the Play
@@ -25,6 +23,7 @@ class Module extends AbstractModule {
     bind(classOf[ApplicationTimer]).asEagerSingleton()
     // Set AtomicCounter as the implementation for Counter.
     bind(classOf[Counter]).to(classOf[AtomicCounter])
+    bind(classOf[AppCache]).to(classOf[AppCacheProvider])
   }
 
 }
